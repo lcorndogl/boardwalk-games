@@ -72,6 +72,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library cards */
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* Medium devices (tablets, px 768 and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
