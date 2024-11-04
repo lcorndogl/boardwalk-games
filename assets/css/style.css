@@ -44,9 +44,8 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    ;
+    /* Prevent navbar overlap  */
+    padding-top: 4rem;
 }
 
 .student {
@@ -145,10 +144,12 @@ h2 {
 
 /* Medium devices (tablets, px 768 and up) */
 @media screen and (min-width: 768px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
     }
+
     .student {
         width: fit-content;
         margin: auto;
@@ -161,6 +162,7 @@ h2 {
 
 /* Large devices (small laptops,  px 992and up) */
 @media screen and (min-width: 992px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
@@ -169,6 +171,7 @@ h2 {
 
 /* X-Large devices (px 1200 and up) */
 @media screen and (min-width: 1200px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 218px;
@@ -177,6 +180,7 @@ h2 {
 
 /* XX-Large devices (px 1400 and up) */
 @media screen and (min-width: 1400px) {
+
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
