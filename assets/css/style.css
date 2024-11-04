@@ -47,6 +47,13 @@ h2 {
     ;
 }
 
+.student {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+}
+
 /* Buttons  */
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
@@ -64,7 +71,6 @@ h2 {
     border: 2px solid var(--highlight-color);
     background-color: white;
     color: var(--highlight-color);
-
     padding: 7px 25px;
 }
 
@@ -140,6 +146,10 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+    .student {
+        width: fit-content;
+        margin: auto;
     }
 }
 
