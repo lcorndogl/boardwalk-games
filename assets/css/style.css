@@ -135,6 +135,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -151,6 +153,8 @@ h2 {
     }
 
     .student {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         margin: auto;
     }
@@ -186,18 +190,3 @@ h2 {
         min-height: 195px;
     }
 }
-
-
-
-/* grid vis for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-    background-color: lightgray;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
